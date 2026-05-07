@@ -1,9 +1,9 @@
 import React from 'react';
 
-const  page = async ({searchParams, params }) => {
+const  page = async () => {
   
-  console.log(await searchParams);
-  console.log(await params);
+  // console.log(await searchParams);
+  // console.log(await params);
   return (
     <div>
       
