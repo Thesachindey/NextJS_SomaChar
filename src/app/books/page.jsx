@@ -1,6 +1,11 @@
 import React from 'react';
 
-const Books = () => {
+// export const dynamic='force-dynamic'; // this will force the page to be dynamic and will not generate static page for it.
+
+
+const Books = async ({searchParams}) => {
+    // await searchParams;
+
     return (
         <div>
             this is the books page!
