@@ -1,14 +1,11 @@
-import React from 'react';
+"use client";
+import React, { useState } from "react";
 
-const Like = async () => {
-    
-  await new Promise((resolve) => setTimeout(resolve, 4000));
-  
-    return (
-        <div>
-            10k likes!
-        </div>
-    );
+const Like = () => {
+  //   await new Promise((resolve) => setTimeout(resolve, 4000));
+  const [Likes, setLikes] = useState(0);
+
+  return <div onClick={() => setLikes((previousValue) => previousValue + 1)}>{Likes} likes!</div>;
 };
 
 export default Like;
