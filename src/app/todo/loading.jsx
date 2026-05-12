@@ -2,8 +2,8 @@ import React from 'react';
 
 const loading = () => {
     return (
-        <div>
-            ToDos are loading... Please wait for a moment!
+        <div className='flex items-center justify-center h-screen'>
+           Page is loading...
         </div>
     );
 };
