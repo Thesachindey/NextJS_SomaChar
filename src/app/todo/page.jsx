@@ -32,7 +32,7 @@ const Todo = async () => {
           Dynamic responsive todo cards with automatic theme support.
         </p>
       </section>
-
+      {/* Parallel data fetching with Suspense */}
       {/* delaying 3s */}
       <Suspense fallback={<div>Loading after 3s...</div>}>
         <Todos3 />
