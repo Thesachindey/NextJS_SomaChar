@@ -13,4 +13,4 @@ const Item = ({name}) => {
     );
 };
 
-export default Item;
+export default Item; 
