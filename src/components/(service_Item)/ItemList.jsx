@@ -1,9 +1,9 @@
 'use client';
 
-const ItemList = () => {
+const ItemList = ({children}) => {
     return (
         <div>
-            
+            {children}
         </div>
     );
 };

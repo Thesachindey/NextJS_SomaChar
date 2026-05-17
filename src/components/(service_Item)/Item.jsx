@@ -1,9 +1,14 @@
 import React from 'react';
 
-const Item = ({item}) => {
+const Item = ({name}) => {
+    if(typeof window !== 'undefined') {
+        console.log('Item component rendered on the client side');
+    }else{
+        console.log('Item component rendered on the server side');
+    }
     return (
         <div>
-            <li>{item.name}</li>
+            <li>{name}</li>
         </div>
     );
 };
