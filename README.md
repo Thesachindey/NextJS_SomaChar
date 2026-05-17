@@ -1,4 +1,4 @@
-# Next.js Learning Journey 🚀
+# Next.js Learning Journey
 
 Hi, I'm Sachin Dey.
 
@@ -12,6 +12,6 @@ This repository contains my Next.js learning concepts, practice code, experiment
 - Full Stack Development
 
 ## Goal
-To become a skilled Full Stack Developer and build scalable, real-world applications.
+To deeply understand Next.js concepts, improve my full stack development skills, and build fast, scalable, production-ready web applications.
 
 This repository will continue to grow as I learn and improve.
