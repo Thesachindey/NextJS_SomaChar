@@ -1,4 +1,4 @@
-# Next.js Learning Journey
+# 🪼 Next.js Learning Journey
 
 Hi, I'm Sachin Dey.
 
