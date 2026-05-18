@@ -1,10 +1,11 @@
 import Link from "next/link";
-import React, { Suspense } from "react";
+import React, { Suspense} from "react";
 import Like from "../../components/Like";
 import View from "../../components/View";
 import Comment from "../../components/Comment";
 
 const BlogPage = () => {
+ 
   return (
     <div>
       Well come to the blog page!
