@@ -8,6 +8,7 @@ export const useTheme = () => {
   return useContext(ThemeContext);
 };
 
+//-----------provider------------------
 export const ThemeProvider = ({ children }) => {
   const [isDark, setIsDark] = useState(true);
 
@@ -27,6 +28,8 @@ export const ThemeProvider = ({ children }) => {
       document.documentElement.classList.remove("dark");
     }
   }, [isDark]);
+//----------------------------------
+
 
   return (
     <ThemeContext.Provider value={{ isDark, toggleTheme }}>
@@ -34,3 +37,4 @@ export const ThemeProvider = ({ children }) => {
     </ThemeContext.Provider>
   );
 };
+//------------------theme-provider-end-----------------------
