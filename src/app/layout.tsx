@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { ThemeProvider } from "../contexts/ThemeContext";
+import { SachinGoalProvider } from "../contexts/SachinGoalContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,13 +30,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-   >
+    <html lang="en">
       <body className="min-h-full flex flex-col">
         <ThemeProvider>
-          <Navbar />
-          {children}
+          <SachinGoalProvider>
+            <Navbar />
+            {children}
+          </SachinGoalProvider>
         </ThemeProvider>
       </body>
     </html>
